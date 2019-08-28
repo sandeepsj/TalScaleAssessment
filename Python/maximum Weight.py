@@ -9,7 +9,7 @@ INPUT FORMAT - First line has the number of cells N
 
 Second line has list of N values of the edge[] array. edge[i] contains the cell number that can be reached from of cell ‘i’ in one step. edge[i] is -1 if the ‘i’th cell doesn’t have an exit. 
 
-OUTPUT FORMAT - Find max entry points in any cell.
+OUTPUT FORMAT - Find max weighted node
 """
 n = int(input())
 edge = list(map(int, input().split(",")))
