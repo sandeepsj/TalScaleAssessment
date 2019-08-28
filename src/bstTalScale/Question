@@ -1,0 +1,5 @@
+You are given two BSTs (Binary Search Tree) with n and m nodes respectively.
+You have to find 2 numbers, 1 number from each BST such that the sum of these numbers should be equal to a given target number 'T'.
+Find the best solution possible in terms of both space and time complexity.
+O(n*m)[ie O(n^2) if n==m] is not acceptable
+Note:BST's might not be balanced.
